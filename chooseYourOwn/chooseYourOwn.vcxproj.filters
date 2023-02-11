@@ -18,9 +18,6 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D20.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -30,9 +27,21 @@
     <ClCompile Include="Room2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DiceUtilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Room1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Room2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiceUtilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

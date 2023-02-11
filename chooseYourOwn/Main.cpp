@@ -1,9 +1,13 @@
 #include <iostream>
 #include <cstdlib>
-#include "Header.h"
+#include "Player.h"
+#include "Room1.h"
+#include "Room2.h"
 
 int main() 
 {
-	room1();
-	Player user = Player();
+	Player user;
+
+	room1(user);
+
 }

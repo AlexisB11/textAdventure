@@ -1,7 +1,12 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
-#include "Header.h"
+#include "Player.h"
+
+Player::Player()
+{
+	isAlive = false;
+}
 
 // Class Functions
 void Player::inventoryPrint() 

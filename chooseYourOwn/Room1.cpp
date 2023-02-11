@@ -1,9 +1,10 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-#include "Header.h"
+#include "Player.h"
+#include "Room2.h"
 
-int room1()
+int room1(Player user)
 {
 	// Introduction
 	std::cout << "You awake in a small cavern." << "The first thing you notice" << " is the sound of dripping water, or some kind of liquid, in the distance."
@@ -35,7 +36,7 @@ int room1()
 			if (firstInput == '2')
 			{
 				examine = false;
-				room2(firstInput);
+				room2(user, firstInput);
 			}
 			break;
 		case '2':

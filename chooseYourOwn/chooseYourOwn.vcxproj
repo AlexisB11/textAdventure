@@ -127,14 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DiceUtilities.cpp" />
     <ClCompile Include="Room1.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="D20.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Room2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="DiceUtilities.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Room1.h" />
+    <ClInclude Include="Room2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

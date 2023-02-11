@@ -1,10 +1,11 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-#include "Header.h"
+#include "Player.h"
+#include "Room2.h"
+#include "DiceUtilities.h"
 
-
-int room2(char choice)
+int room2(Player user, char choice)
 {
 	// Introduction
 	std::cout << "You crawl through the hole trying to remember what happened to you the night before but you can only "
